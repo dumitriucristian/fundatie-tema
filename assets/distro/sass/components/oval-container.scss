@@ -1,0 +1,21 @@
+@import '../general';
+
+.oval{
+    a {
+        background-color: white;
+        width: 15em;
+        height: 5em;
+        padding: 2em;
+        border-radius: 5em;
+        box-shadow: #6ea8ff42 0 0 19px;
+        img{
+            display: block;
+            width: 22% !important;
+            position: relative;
+            left: 59px;
+            top: -9px;
+        }
+    }
+    
+  
+}

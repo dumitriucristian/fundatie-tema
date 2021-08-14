@@ -11585,6 +11585,139 @@ a {
     border-radius: 0 0 4em 4em;
   }
 }
+@font-face {
+  src: url("/themes/fundatie/assets/fonts/Galano-Grotesque-Black_0.otf");
+  font-family: "galano-black";
+}
+@font-face {
+  src: url("/themes/fundatie/assets/fonts/Galano-Grotesque-Semi-Bold_0.otf");
+  font-family: "galano-semi-bold";
+}
+@font-face {
+  src: url("/themes/fundatie/assets/fonts/Galano-Grotesque-Light_0.otf");
+  font-family: "galano-light";
+}
+body {
+  font-family: galano-light;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h3 {
+  font-family: galano-black;
+}
+
+.btn-doneaza {
+  background-color: #dc4199;
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  font-weight: bold;
+  color: #dc4199;
+}
+
+.round-container {
+  background-color: white;
+  height: 8em;
+  width: 8em;
+  text-align: center;
+  vertical-align: middle;
+  padding: 3em 2em;
+  font-family: "galano-black";
+  color: #6255a4;
+  box-shadow: #6ea8ff42 0px 0px 15px;
+}
+
+@font-face {
+  src: url("/themes/fundatie/assets/fonts/Galano-Grotesque-Black_0.otf");
+  font-family: "galano-black";
+}
+@font-face {
+  src: url("/themes/fundatie/assets/fonts/Galano-Grotesque-Semi-Bold_0.otf");
+  font-family: "galano-semi-bold";
+}
+@font-face {
+  src: url("/themes/fundatie/assets/fonts/Galano-Grotesque-Light_0.otf");
+  font-family: "galano-light";
+}
+body {
+  font-family: galano-light;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h3 {
+  font-family: galano-black;
+}
+
+.btn-doneaza {
+  background-color: #dc4199;
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  font-weight: bold;
+  color: #dc4199;
+}
+
+.oval a {
+  background-color: white;
+  width: 15em;
+  height: 5em;
+  padding: 2em;
+  border-radius: 5em;
+  box-shadow: #6ea8ff42 0 0 19px;
+}
+.oval a img {
+  display: block;
+  width: 22% !important;
+  position: relative;
+  left: 59px;
+  top: -9px;
+}
+
+@font-face {
+  src: url("/themes/fundatie/assets/fonts/Galano-Grotesque-Black_0.otf");
+  font-family: "galano-black";
+}
+@font-face {
+  src: url("/themes/fundatie/assets/fonts/Galano-Grotesque-Semi-Bold_0.otf");
+  font-family: "galano-semi-bold";
+}
+@font-face {
+  src: url("/themes/fundatie/assets/fonts/Galano-Grotesque-Light_0.otf");
+  font-family: "galano-light";
+}
+body {
+  font-family: galano-light;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h3 {
+  font-family: galano-black;
+}
+
+.btn-doneaza {
+  background-color: #dc4199;
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  font-weight: bold;
+  color: #dc4199;
+}
+
+.long-btn {
+  background-color: #dc4199;
+  width: 100%;
+  display: block;
+  border-radius: 2em;
+  height: 35px;
+  color: #fff;
+  text-decoration: none;
+}
+.long-btn img {
+  height: 18px;
+}
 
 body{
     background-color:white;

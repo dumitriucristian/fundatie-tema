@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="{{'assets/compiled/css/main.css'|theme}}">
+    <link rel="stylesheet" href="{{'assets/compiled/css/custom.css'|theme}}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        
+    </head>
+    {% partial 'header' %}
+    {% partial 'navigation' %}
+    <body class="bg-light">
+        {% partial 'header-section' %}
+        {% page %}
+        {% partial 'footer' %}
+        {% partial 'scripts' %}
+  </body>
+</html>

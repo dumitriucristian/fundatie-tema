@@ -11286,6 +11286,7 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h3 {
   font-family: galano-black;
+  color: #6f42c1;
 }
 
 .btn-doneaza {
@@ -11339,6 +11340,7 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h3 {
   font-family: galano-black;
+  color: #6255a4;
 }
 
 .btn-doneaza {
@@ -11376,6 +11378,7 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h3 {
   font-family: galano-black;
+  color: #6255a4;
 }
 
 .btn-doneaza {
@@ -11444,6 +11447,7 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h3 {
   font-family: galano-black;
+  color: #6255a4;
 }
 
 .btn-doneaza {
@@ -11603,6 +11607,7 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h3 {
   font-family: galano-black;
+  color: #6255a4;
 }
 
 .btn-doneaza {
@@ -11626,6 +11631,7 @@ a {
   font-family: "galano-black";
   color: #6255a4;
   box-shadow: #6ea8ff42 0px 0px 15px;
+  margin: 1em;
 }
 
 @font-face {
@@ -11646,6 +11652,7 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h3 {
   font-family: galano-black;
+  color: #6255a4;
 }
 
 .btn-doneaza {
@@ -11666,6 +11673,7 @@ a {
   padding: 2em;
   border-radius: 5em;
   box-shadow: #6ea8ff42 0 0 19px;
+  margin: 1em;
 }
 .oval a img {
   display: block;
@@ -11675,6 +11683,23 @@ a {
   top: -9px;
 }
 
+@media (max-width: 1024px) {
+  .oval a {
+    background-color: white;
+    width: 8em;
+    height: 0em;
+    padding: 2em;
+    border-radius: 3em;
+    box-shadow: #6ea8ff42 0 0 19px;
+    margin: 1em;
+  }
+  .oval a img {
+    width: 37% !important;
+    position: relative;
+    left: 24px;
+    top: -9px;
+  }
+}
 @font-face {
   src: url("/themes/fundatie/assets/fonts/Galano-Grotesque-Black_0.otf");
   font-family: "galano-black";
@@ -11693,6 +11718,7 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h3 {
   font-family: galano-black;
+  color: #6255a4;
 }
 
 .btn-doneaza {
